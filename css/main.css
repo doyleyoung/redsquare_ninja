@@ -57,10 +57,15 @@ body {
 h1 {
     font-size: 4em;
     text-align: center;
+    line-height: 2em;
 }
 
 h2 {
     font-size: 3em;
+}
+
+.centered {
+    text-align: center;
 }
 
 #square {
@@ -87,8 +92,17 @@ h2 {
     margin-bottom: 20px;
 }
 
-img {
-    width: 60%;
+.neon {
+    color: #fff;
+    text-shadow:
+        0 0 5px #ffff,
+        0 0 10px #ffff,
+        0 0 20px #ffff,
+        0 0 40px #0fff,
+        0 0 80px #0fff,
+        0 0 90px #0fff,
+        0 0 100px #0fff,
+        0 0 150px #0fff;
 }
 
 .ImageGrid {
@@ -118,23 +132,8 @@ img {
     max-height: auto;
 }
 
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   background-image: url("../img/Chair.jpeg");
-}
-
-.content {
-  flex: 1;
 }
 
 @media only screen and (min-width: 1140px) {
