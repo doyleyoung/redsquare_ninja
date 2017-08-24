@@ -68,11 +68,16 @@ h2 {
     text-align: center;
 }
 
+.jamtext {
+    text-align: center;
+    font-size: 2.5em;
+}
+
 #square {
     position: relative;
-    width: 20%;
+    width: 100%;
     height: 0;
-    padding-bottom: 20%;
+    padding-bottom: 100%;
     margin: 3em 0;
     background: red;
 }
@@ -105,7 +110,17 @@ h2 {
         0 0 150px #0fff;
 }
 
-.ImageGrid {
+.topblock {
+    display: block;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.imagegrid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -119,7 +134,7 @@ h2 {
     margin: -4px 0 6em -4px;
 }
 
-.ImageGrid > a {
+.imagegrid > a {
     padding: 4px;
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 33.33%;
@@ -127,9 +142,17 @@ h2 {
     flex: 1 0 33.33%;
 }
 
-.ImageGrid > a img {
+.imagegrid > a img {
     width: 100%;
     max-height: auto;
+}
+
+.imagegrid > video {
+    padding: 4px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 33.33%;
+    -ms-flex: 1 0 33.33%;
+    flex: 1 0 33.33%;
 }
 
 .site {

@@ -16,16 +16,22 @@
     <h1 class="neon">Hilton Head 2017</h1>
 
     <div>
-        <div id="square">
-            <h3 class="centered">Click me!</h3>
-            <audio>
-                <source src="sound/redsquare.wav">
-            </audio>
-            <h3 class="centered">That's my jam!</h3>
+        <div class="topblock">
+            <div class="left">
+                <div id="square">
+                    <h3 class="centered">Click me!</h3>
+                    <audio>
+                        <source src="sound/redsquare.wav">
+                    </audio>
+                </div>
+            </div>
+            <div id="jam">
+                <h3 class="jamtext visuallyhidden">That's my jam!</h3>
+            </div>
         </div>
 
         <h2>Fishing</h2>
-        <div class="ImageGrid">
+        <div class="imagegrid">
             <a data-fancybox="fishing" href="img/ACDEFishing.JPG"><img src="img/small/ACDEFishing.png"></a>
             <a data-fancybox="fishing" href="img/ACDJFishing.JPG"><img src="img/small/ACDJFishing.png"></a>
             <a data-fancybox="fishing" href="img/ACDJBridgeFishing.JPG"><img src="img/small/ACDJBridgeFishing.png"></a>
@@ -39,12 +45,16 @@
             <a data-fancybox="fishing" href="img/Gator.JPG"><img src="img/small/Gator.png"></a>
             <a data-fancybox="fishing" href="img/Gator2.JPG"><img src="img/small/Gator2.png"></a>
 
-            <a data-fancybox="fishing" href="vid/MVI_0679.MP4">Almost</a>
-            <a data-fancybox="fishing" href="vid/MVI_0680.MP4">Almost again</a>
+            <video width="480" height="320" controls="controls">
+                <source src="vid/MVI_0679.MP4" type="video/mp4">
+            </video>
+            <video width="480" height="320" controls="controls">
+                <source src="vid/MVI_0680.MP4" type="video/mp4">
+            </video>
         </div>
 
         <h2>Eclipse</h2>
-        <div class="ImageGrid">
+        <div class="imagegrid">
             <a data-fancybox="eclipse" href="img/FamilyEclipse.jpeg"><img src="img/small/FamilyEclipse.png"></a>
             <a data-fancybox="eclipse" href="img/EclipsePic.jpeg"><img src="img/small/EclipsePic.png"></a>
             <a data-fancybox="eclipse" href="img/CDEJJEclipse.JPG"><img src="img/small/CDEJJEclipse.png"></a>
@@ -52,7 +62,7 @@
         </div>
 
         <h2>Random</h2>
-        <div class="ImageGrid">
+        <div class="imagegrid">
             <a data-fancybox="random" href="img/ACDisney.JPG"><img src="img/small/ACDisney.png"></a>
             <a data-fancybox="random" href="img/ACIceCream.JPG"><img src="img/small/ACIceCream.png"></a>
             <a data-fancybox="random" href="img/ACDELighthouse.JPG"><img src="img/small/ACDELighthouse.png"></a>
